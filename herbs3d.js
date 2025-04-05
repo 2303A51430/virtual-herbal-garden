@@ -16,12 +16,12 @@ scene.add(light);
 const loader = new GLTFLoader();
 
 const plantFiles = [
-  { name: 'Ashwagandha', path: 'models/Ahwagandha.glb', position: [-1.5, 0, 0] },
-  { name: 'Cardamom', path: 'models/Cardamom.glb', position: [3, 0, 0] },
-  { name: 'Cinnamon', path: 'models/Cinnamon.glb', position: [1.5, 0, 0] },
-  {name: 'Clove', path: 'models/Cloven.glb',position: [0, 0, 0] },
-  { name: 'tulsi', path: 'models/tulsi.glb', position: [-3, 0, 0] },
-  { name: 'Turmeric', path: 'models/Turmeric.glb', position: [0, 0, 0] }
+  { name: 'Ashwagandha', path: 'Ahwagandha.glb', position: [-1.5, 0, 0] },
+  { name: 'Cardamom', path: 'Cardamom.glb', position: [3, 0, 0] },
+  { name: 'Cinnamon', path: 'Cinnamon.glb', position: [1.5, 0, 0] },
+  {name: 'Clove', path: 'Cloven.glb',position: [0, 0, 0] },
+  { name: 'tulsi', path: 'tulsi.glb', position: [-3, 0, 0] },
+  { name: 'Turmeric', path: 'Turmeric.glb', position: [0, 0, 0] }
 ];
 
 plantFiles.forEach(({ name, path, position }) => {
